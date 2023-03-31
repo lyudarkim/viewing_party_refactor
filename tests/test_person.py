@@ -21,3 +21,7 @@ def test_adding_friend_multiple_times_does_not_create_duplicate():
 
     # Assert
     assert kendall.friends == [simon]
+
+def test_adding_new_movie_to_watchlist():
+    # Arrange
+    
